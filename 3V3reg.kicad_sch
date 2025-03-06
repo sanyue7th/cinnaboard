@@ -408,6 +408,46 @@
 		)
 		(uuid "357d4276-4425-4007-b765-fe10bb890921")
 	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0336c963-b44f-4363-8075-13cf8b97095f")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22960241-0ae2-4950-aa44-0118eeecb7c8")
+	)
+	(wire
+		(pts
+			(xy 100.33 93.98) (xy 124.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd4c823-637e-4568-b4aa-9b0ac8df6ce3")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e79780-be40-4f8e-815e-3cbe341da62e")
+	)
 	(hierarchical_label "PP_3V3_MAIN"
 		(shape input)
 		(at 100.33 93.98 180)
@@ -421,12 +461,12 @@
 	)
 	(hierarchical_label "PP_USBC_VBUS"
 		(shape input)
-		(at 195.58 95.25 0)
+		(at 91.44 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eae6f403-6223-4d05-9ebf-d7337e9706cc")
 	)
