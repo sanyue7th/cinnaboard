@@ -1021,7 +1021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -1030,7 +1030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121957_Murata-Electronics-LQM18PN3R3MFRL_C162581.pdf"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -1041,6 +1041,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162581"
+			(at 167.64 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 97.4852 101.6 0)
 			(effects
 				(font
@@ -1232,7 +1241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -1242,6 +1251,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -1359,7 +1377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_2114_3652Metric"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -1368,7 +1386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121321_High-Diode-SS520_C466507.pdf"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -1379,6 +1397,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466507"
+			(at 149.86 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,6 +1483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C316691"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "7f299468-a20d-4005-9c19-82a07e212ca0")
 		)
@@ -1517,7 +1553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 178.7652 104.14 0)
 			(effects
 				(font
@@ -1526,7 +1562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 177.8 100.33 0)
 			(effects
 				(font
@@ -1536,6 +1572,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 177.8 100.33 0)
 			(effects
 				(font

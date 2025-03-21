@@ -6992,7 +6992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010403_STMicroelectronics-ESDA25W_C2935152.pdf"
 			(at 49.53 144.78 0)
 			(effects
 				(font
@@ -7002,6 +7002,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2935152"
 			(at 49.53 144.78 0)
 			(effects
 				(font
@@ -7056,7 +7065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 244.8052 93.98 0)
 			(effects
 				(font
@@ -7065,7 +7074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
 			(at 243.84 90.17 0)
 			(effects
 				(font
@@ -7075,6 +7084,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 243.84 90.17 0)
 			(effects
 				(font
@@ -7375,7 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300832_VBsemi-Elec-VBA4658_C416242.pdf"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -7385,6 +7403,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C416242"
 			(at 224.79 80.01 0)
 			(effects
 				(font
@@ -7434,10 +7461,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86e69871-8da5-4f71-93be-785d32a8c693")
 		(property "Reference" "C9"
-			(at 71.12 86.3599 0)
+			(at 71.374 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7446,15 +7472,16 @@
 			)
 		)
 		(property "Value" "C"
-			(at 71.12 88.8999 0)
+			(at 72.644 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.2752 91.44 0)
 			(effects
 				(font
@@ -7463,7 +7490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409241209_Nichicon-UWT1H221MNL1GS_C125977.pdf"
 			(at 67.31 87.63 0)
 			(effects
 				(font
@@ -7473,6 +7500,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125977"
 			(at 67.31 87.63 0)
 			(effects
 				(font
@@ -7521,7 +7557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 165.862 110.49 90)
 			(effects
 				(font
@@ -7530,7 +7566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -7540,6 +7576,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -7862,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 224.282 101.6 90)
 			(effects
 				(font
@@ -7871,7 +7916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -7881,6 +7926,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -8274,7 +8328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 88.392 97.79 90)
 			(effects
 				(font
@@ -8283,7 +8337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -8293,6 +8347,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -8420,7 +8483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411121028_TECH-PUBLIC-ESDA25P35-1U1M_C19829649.pdf"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -8431,6 +8494,15 @@
 		)
 		(property "Description" ""
 			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "  C19829649"
+			(at 83.566 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Littelfuse_PolyZen-LS"
 			(at 220.98 101.6 0)
 			(effects
 				(font
@@ -8558,7 +8630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121247_High-Diode-1SMA4750A_C5448546.pdf"
 			(at 220.98 101.6 0)
 			(effects
 				(font
@@ -8569,6 +8641,15 @@
 		)
 		(property "Description" "Zener diode"
 			(at 220.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5448546"
+			(at 220.98 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +8769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 242.062 101.6 90)
 			(effects
 				(font
@@ -8697,7 +8778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0710KL_C98220.pdf"
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -8707,6 +8788,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -8755,7 +8845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 167.64 103.378 90)
 			(effects
 				(font
@@ -8764,7 +8854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121247_High-Diode-1SMA4750A_C5448546.pdf"
 			(at 167.64 101.6 0)
 			(effects
 				(font
@@ -8775,6 +8865,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5448546"
+			(at 167.64 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070703_STMicroelectronics-STUSB4500QTR_C2678061.pdf"
 			(at 127 114.3 0)
 			(effects
 				(font
@@ -9345,6 +9444,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2678061"
 			(at 127 114.3 0)
 			(effects
 				(font
