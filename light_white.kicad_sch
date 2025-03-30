@@ -1,0 +1,6263 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb9366d8-fbcd-4b6e-bba9-88f2bceb8496")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:US1A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "US1A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Ultra Fast"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "US1A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "US1A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Si2319CDS"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Si2319CDS"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Si2319CDS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Si2319CDS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "aaasymlib:TPS61181ARTER"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPS61181ARTER"
+				(at 30.48 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "aaaafootprintlib:RTE16_1P7X1P7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TPS61181ARTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2679379"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPS61181ARTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RTE16_1P7X1P7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS61181ARTER_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -25.4) (xy 53.34 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -25.4) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "ISET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "CIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "IFB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "IFB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "FAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -7.62 180)
+					(length 7.62)
+					(name "IFB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -10.16 180)
+					(length 7.62)
+					(name "IFB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -12.7 180)
+					(length 7.62)
+					(name "IFB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -15.24 180)
+					(length 7.62)
+					(name "DCTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -17.78 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -20.32 180)
+					(length 7.62)
+					(name "IFB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 193.675 -160.02)
+		(end 259.715 -17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45b3dfca-193a-4c7b-a26b-569a4e1df611)
+	)
+	(rectangle
+		(start 26.035 -112.395)
+		(end 193.04 -65.405)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afcf8dad-881a-4c8c-9e51-ea4f4627945c)
+	)
+	(rectangle
+		(start 26.035 -160.02)
+		(end 193.04 -113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c75ebfb9-b631-4df6-b37d-da2905ce0cf1)
+	)
+	(rectangle
+		(start 26.035 -64.77)
+		(end 193.04 -17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6519102-85d5-4b98-b971-86382b69b2aa)
+	)
+	(text "20mA/CH = 60mA/string"
+		(exclude_from_sim no)
+		(at 61.468 -82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1cc85fdf-f01c-427a-a7ba-92bcd55a83a9")
+	)
+	(text "LED Strings"
+		(exclude_from_sim no)
+		(at 195.58 -156.21 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "83d8b7ef-a27c-44ef-bad9-90ad85140715")
+	)
+	(text "I_{f} = 60mA @ 2.95V V_{f}"
+		(exclude_from_sim no)
+		(at 226.314 -138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fbeddba-842b-4f3a-bfcc-7aaf67fbdfec")
+	)
+	(text "Total drive power ~= 2.95V x 60mA x 20 = 3.54W"
+		(exclude_from_sim no)
+		(at 226.568 -130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c68a03b2-2cb4-48bc-9e3f-5be33675ec56")
+	)
+	(text "Capacitors"
+		(exclude_from_sim no)
+		(at 27.94 -61.214 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "d3820a50-573a-4043-ae0c-cb55b606cfcf")
+	)
+	(text "Power Stage"
+		(exclude_from_sim no)
+		(at 39.116 -156.718 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d40f5c50-3dbb-4b9a-bc37-d01098532f91")
+	)
+	(text "CC LED Driver"
+		(exclude_from_sim no)
+		(at 41.148 -108.966 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f88a17ad-0d11-4e00-9b30-c0fbe65962c2")
+	)
+	(junction
+		(at 81.28 -132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "340aa397-b1ff-4438-b813-bf2e40db3cd0")
+	)
+	(junction
+		(at 137.16 -46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760b0672-9a88-456c-b095-7ea0f0cdb891")
+	)
+	(junction
+		(at 148.59 -46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a11c2d0-1c65-4ef0-92c3-208d75ee7496")
+	)
+	(junction
+		(at 125.73 -39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f27a345-154d-45f0-9141-a08c9c848097")
+	)
+	(junction
+		(at 125.73 -46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60b62de-0eda-4886-ae21-ad2fd38a0a24")
+	)
+	(junction
+		(at 147.32 -86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5949f38-d2e5-4b68-b813-380e12c87422")
+	)
+	(junction
+		(at 137.16 -39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd7c1713-e2fb-4127-932c-3035757416f4")
+	)
+	(junction
+		(at 114.3 -39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edae26a6-19ce-448e-8526-5f13234ddaf9")
+	)
+	(junction
+		(at 66.04 -46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f78ea423-c1b7-4849-8585-ac8cf09a1473")
+	)
+	(junction
+		(at 62.23 -132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff641f36-8cfe-44a8-a9bf-b537eccea0fe")
+	)
+	(wire
+		(pts
+			(xy 62.23 -119.38) (xy 62.23 -121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0cc84d-7d9b-4144-8f67-1760037c0252")
+	)
+	(wire
+		(pts
+			(xy 66.04 -46.99) (xy 78.74 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a85b7f-06dd-4bdd-af1c-a990430ffcc9")
+	)
+	(wire
+		(pts
+			(xy 214.63 -106.68) (xy 236.22 -106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ff7a5d-e931-4e96-b0a2-9174e7dd5d45")
+	)
+	(wire
+		(pts
+			(xy 62.23 -129.54) (xy 62.23 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f3b6c4-e325-47b7-9db1-bfd316ab41d3")
+	)
+	(wire
+		(pts
+			(xy 48.26 -132.08) (xy 62.23 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3205e17b-fdf2-4c59-b8bb-427b83c5079c")
+	)
+	(wire
+		(pts
+			(xy 158.75 -78.74) (xy 147.32 -78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8d9d75-9c94-4846-91ff-df9471ed5ee6")
+	)
+	(wire
+		(pts
+			(xy 147.32 -88.9) (xy 147.32 -86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47719169-a71e-4eb8-8ef1-df6cd1b8bbe7")
+	)
+	(wire
+		(pts
+			(xy 71.12 -96.52) (xy 86.36 -96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a35338d-50b2-483c-9d7e-da0159cf1524")
+	)
+	(wire
+		(pts
+			(xy 81.28 -132.08) (xy 120.65 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0375b7-81e5-4d96-9496-07d28bd39442")
+	)
+	(wire
+		(pts
+			(xy 90.17 -46.99) (xy 92.71 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1bbcbe-ca44-44cb-9ead-f8791cdbed16")
+	)
+	(wire
+		(pts
+			(xy 114.3 -39.37) (xy 125.73 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ee8fda-68dc-4f13-ad69-c36b0a3765ac")
+	)
+	(wire
+		(pts
+			(xy 62.23 -91.44) (xy 86.36 -91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db18be6-df63-4cc5-8947-7b07b30899a8")
+	)
+	(wire
+		(pts
+			(xy 158.75 -96.52) (xy 147.32 -96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f7c1e4-52d6-4153-8e91-c9af1e91ee40")
+	)
+	(wire
+		(pts
+			(xy 128.27 -132.08) (xy 151.13 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66884874-3eec-4397-b8c5-01726d9a7fac")
+	)
+	(wire
+		(pts
+			(xy 48.26 -46.99) (xy 66.04 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9680e4-ca9e-408f-97a6-40312410f4f5")
+	)
+	(wire
+		(pts
+			(xy 149.86 -46.99) (xy 148.59 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796a3619-dddd-497d-913c-46bfd3bda93d")
+	)
+	(wire
+		(pts
+			(xy 148.59 -46.99) (xy 137.16 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a88a73b-3be3-459b-bbad-e485961529a2")
+	)
+	(wire
+		(pts
+			(xy 102.87 -46.99) (xy 106.68 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbde864-fb40-4d67-9777-f8ed512eb391")
+	)
+	(wire
+		(pts
+			(xy 83.82 -88.9) (xy 86.36 -88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81331baa-a5d3-47f4-8491-ff03f0f41a13")
+	)
+	(wire
+		(pts
+			(xy 68.58 -119.38) (xy 68.58 -124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8621665a-fb48-49be-856e-7865920a95d2")
+	)
+	(wire
+		(pts
+			(xy 83.82 -93.98) (xy 86.36 -93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a3eb60-eccb-4c56-b755-22f20742d804")
+	)
+	(wire
+		(pts
+			(xy 78.74 -86.36) (xy 86.36 -86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97762fcb-7ee9-485e-a0d9-de31766efb89")
+	)
+	(wire
+		(pts
+			(xy 137.16 -39.37) (xy 148.59 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd3c742-fb6d-4e69-9497-feafaffa9132")
+	)
+	(wire
+		(pts
+			(xy 73.66 -132.08) (xy 81.28 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f31b7f8-c373-489c-b5f0-d18998bd5633")
+	)
+	(wire
+		(pts
+			(xy 62.23 -119.38) (xy 68.58 -119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1412a17-346d-49b0-92a4-dc6e4c71f43c")
+	)
+	(wire
+		(pts
+			(xy 125.73 -39.37) (xy 137.16 -39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b25ba-189f-4cb8-8ea9-188bd1227cca")
+	)
+	(wire
+		(pts
+			(xy 158.75 -132.08) (xy 173.99 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31f017a-5a11-421f-b9b0-a48791230fad")
+	)
+	(wire
+		(pts
+			(xy 125.73 -46.99) (xy 114.3 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4f3b06-bcce-4e5c-be65-6cf7552452c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 -46.99) (xy 125.73 -46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0d45f6-532e-4445-87d0-2edfa001c05d")
+	)
+	(wire
+		(pts
+			(xy 147.32 -86.36) (xy 147.32 -83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b8615b-6af7-422f-a67f-074a5fb56a45")
+	)
+	(wire
+		(pts
+			(xy 48.26 -91.44) (xy 54.61 -91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c56245-d56b-4be0-a566-1333d94b4e4f")
+	)
+	(wire
+		(pts
+			(xy 62.23 -132.08) (xy 63.5 -132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61cf831-4950-4838-9b48-ab690001972d")
+	)
+	(wire
+		(pts
+			(xy 86.36 -81.28) (xy 86.36 -78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb86311e-6a97-4ee8-9250-77b15125ff3b")
+	)
+	(label "vo"
+		(at 149.86 -46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0febbdfb-6612-44ec-9398-7aa778626338")
+	)
+	(label "hc_strip_2"
+		(at 236.22 -30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29e0a461-445b-4cd3-bef3-0d0779c0cce2")
+	)
+	(label "sw"
+		(at 142.24 -132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "379e47ae-962f-4c1e-9df9-e9de50912629")
+	)
+	(label "hc_strip_1"
+		(at 214.63 -30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e3ce47c-2531-4a36-a0b8-043c1cd79821")
+	)
+	(label "vo"
+		(at 173.99 -132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "469c7ed7-c225-4949-87ea-e33e72b566d0")
+	)
+	(label "vbat"
+		(at 83.82 -91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a3ae4e2-25b9-4a43-9771-f51f349c74de")
+	)
+	(label "vo"
+		(at 83.82 -88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52ee44ed-8e17-437b-baaa-e81df2c64ac9")
+	)
+	(label "hc_strip_2"
+		(at 147.32 -86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97e78766-e3ab-44ac-b9a5-b2481eaa27ae")
+	)
+	(label "cin"
+		(at 92.71 -46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5ad40eb-184d-4ee8-a517-c18a5b9b959c")
+	)
+	(label "fault"
+		(at 68.58 -119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "add7ef45-c090-4873-b7fb-ed59e29812fc")
+	)
+	(label "cin"
+		(at 86.36 -83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf528156-bf49-4e38-aedc-85f05076974b")
+	)
+	(label "led_vcc"
+		(at 102.87 -132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4a4f47a-5366-4de5-b388-2c771675577b")
+	)
+	(label "vbat"
+		(at 106.68 -46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4d44998-1efc-4512-b81f-071cc8f6076c")
+	)
+	(label "hc_strip_1"
+		(at 147.32 -76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7b28350-7e39-4a1b-8541-812c8158329c")
+	)
+	(label "fault"
+		(at 147.32 -93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d89a838e-69a6-449b-8626-389cba1e1dd3")
+	)
+	(label "vo"
+		(at 236.22 -106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecd2ac1e-6f8b-4846-a68c-49461e55e090")
+	)
+	(label "hc_strip_1"
+		(at 86.36 -81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f906460c-8601-4696-9e1e-17761d6e6e40")
+	)
+	(label "sw"
+		(at 83.82 -93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe20e76d-a5ec-4870-a451-5accc9256018")
+	)
+	(hierarchical_label "vbus"
+		(shape input)
+		(at 48.26 -46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a5547da-3946-4772-9d4b-252175914432")
+	)
+	(hierarchical_label "vbus"
+		(shape input)
+		(at 48.26 -91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cebbc1c-291f-40cf-90e5-9d7410f4c70b")
+	)
+	(hierarchical_label "en"
+		(shape input)
+		(at 147.32 -91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a575c00-ef34-487e-8882-0d6bdf804a77")
+	)
+	(hierarchical_label "vbus"
+		(shape input)
+		(at 48.26 -132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fd2a3ac-eb37-4b9e-8530-4891f6bcc569")
+	)
+	(hierarchical_label "pwm"
+		(shape input)
+		(at 147.32 -81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d45f6789-c6f0-44ae-8e5d-d09c2222650a")
+	)
+	(symbol
+		(lib_id "aaasymlib:TPS61181ARTER")
+		(at 86.36 -96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "041e8413-a493-4156-b0ef-65819bdb944e")
+		(property "Reference" "U8"
+			(at 116.84 -109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS61181ARTER"
+			(at 116.84 -106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:RTE16_1P7X1P7"
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS61181ARTER"
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2679379"
+			(at 116.84 -104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "68a96f4a-7b1b-4d79-87d4-e8ea4376948e")
+		)
+		(pin "4"
+			(uuid "9da21071-f60d-4558-99ac-5978d98c6487")
+		)
+		(pin "7"
+			(uuid "74839ecc-1853-487e-b3f4-1d50f3401174")
+		)
+		(pin "11"
+			(uuid "314eadbc-a804-4b28-99c3-0924c070eb87")
+		)
+		(pin "16"
+			(uuid "3f6ffedb-774d-4b29-9421-e9b2bdca3cd7")
+		)
+		(pin "14"
+			(uuid "51ab2d88-d0cf-4c51-86a2-07c65299dad2")
+		)
+		(pin "8"
+			(uuid "eaea6fec-24dd-44d4-ab18-3c04ab4b3ec9")
+		)
+		(pin "2"
+			(uuid "a8aa536e-e2c6-47cb-8b55-184262467885")
+		)
+		(pin "1"
+			(uuid "54d48a99-b59f-4230-97e2-f7dcbab20d94")
+		)
+		(pin "12"
+			(uuid "e4cceec4-0420-44f1-94c7-744e8a05b73a")
+		)
+		(pin "6"
+			(uuid "5fd74b4c-710d-45de-acbd-878c6431610d")
+		)
+		(pin "15"
+			(uuid "b5ec4536-6f6b-4d0c-93a1-bde5d06df757")
+		)
+		(pin "13"
+			(uuid "8796fa5f-0462-4bff-8265-4fe488b15043")
+		)
+		(pin "9"
+			(uuid "d4696335-33ab-44d8-a7bb-b652ee3c7331")
+		)
+		(pin "3"
+			(uuid "35fbfca9-39f6-40a3-82c5-a0586d44ba87")
+		)
+		(pin "17"
+			(uuid "f1f10630-994e-470a-b754-89e0de35ca5f")
+		)
+		(pin "5"
+			(uuid "4a6d3f76-f250-4fab-bba2-c69b414c8123")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Si2319CDS")
+		(at 68.58 -129.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05021aca-b435-416d-9d1a-ee3162658ed1")
+		(property "Reference" "Q1"
+			(at 68.58 -138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si2319CDS"
+			(at 68.58 -135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 66.675 -134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
+			(at 64.77 -134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+			(at 68.58 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C146287"
+			(at 68.58 -129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ba3281-1d7e-4148-9256-2c744199ecf9")
+		)
+		(pin "2"
+			(uuid "6403f943-d749-45bc-893c-8b258f14edd9")
+		)
+		(pin "3"
+			(uuid "5b8a694f-ce66-48e7-9f48-1456f4881aa0")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 -125.73 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05fcc622-5d1c-43b0-8aec-e862fbb73f03")
+		(property "Reference" "R15"
+			(at 59.69 -127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R62k"
+			(at 59.69 -124.4601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 60.452 -125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 -125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 -125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137950"
+			(at 62.23 -125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5fd17548-9721-471c-8a3a-8f80734ad7cf")
+		)
+		(pin "1"
+			(uuid "9c6fb03e-3f2c-4bf8-b384-742e2fa9d4dd")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -41.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b9e1bc8-68e9-4c8b-9e0b-f43d52496b7e")
+		(property "Reference" "D31"
+			(at 232.41 -41.5926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -39.0526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10d3822d-ee64-43a7-a834-6530111224ab")
+		)
+		(pin "1"
+			(uuid "29442a6f-f953-437e-99fc-fbf194e2fae6")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 -78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "143bf932-4b52-4ec0-b7a3-d7a311e0d60e")
+		(property "Reference" "#PWR027"
+			(at 165.1 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 -78.7401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d7b1e77-2982-4fb7-8f7d-716a0202d628")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea098db-341c-4741-b611-96e51f5d2316")
+		(property "Reference" "C10"
+			(at 69.85 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4u7"
+			(at 69.85 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.0052 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 66.04 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60f122f4-bed7-446e-a8ec-05bca8ee85c3")
+		)
+		(pin "2"
+			(uuid "3b72d9df-f89c-42ab-af26-258598e46b8d")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23500bef-e73e-46f6-841d-bf10f5e1106a")
+		(property "Reference" "D17"
+			(at 232.41 -79.6926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -77.1526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "619de96e-b9c5-486e-bb65-b3ceaddf1226")
+		)
+		(pin "1"
+			(uuid "13ac0987-f8e6-4cec-a754-dd4dbb9865b4")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23ee8a6d-133f-4852-84d3-053b91d508f5")
+		(property "Reference" "D15"
+			(at 232.41 -87.3126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -84.7726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "914a66d5-bbfd-401a-a366-6bc001fa623b")
+		)
+		(pin "1"
+			(uuid "2e285927-02fd-4f22-a687-5aef66317751")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d50e21-d687-4b5e-93f2-943eed339ffa")
+		(property "Reference" "C17"
+			(at 152.4 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1u"
+			(at 152.4 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 149.5552 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 148.59 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb45662c-89b8-4cb8-9b67-ab56ecbcd12a")
+		)
+		(pin "2"
+			(uuid "6d278c00-ffda-48f4-9d2e-4aea233a3d12")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "306a669e-f4cf-4583-8572-d91a34cc3c2b")
+		(property "Reference" "D14"
+			(at 210.82 -87.3126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -84.7726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf228ff8-0487-4f73-bb96-619123c5d058")
+		)
+		(pin "1"
+			(uuid "3440c1dd-b441-4310-947e-3994764ef93d")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311006f8-9b69-4489-ab07-3669ff84f932")
+		(property "Reference" "#PWR023"
+			(at 102.87 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32f63bde-7633-4d0f-92fb-7c5b85849ded")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -95.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "332f778f-2015-4fb7-8c2d-9bdb31f57a79")
+		(property "Reference" "D13"
+			(at 232.41 -94.9326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -92.3926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4141c6bd-5740-4743-a000-c728135fc9ba")
+		)
+		(pin "1"
+			(uuid "431eea48-b64d-4e98-98df-4892ab99a481")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 -86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3573458f-0378-420e-b4ff-01a4dae419f5")
+		(property "Reference" "R10"
+			(at 74.93 -92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R62k"
+			(at 74.93 -90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 -84.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137950"
+			(at 74.93 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "190ad863-55a3-4bfe-86fb-9b9888df5a53")
+		)
+		(pin "1"
+			(uuid "a684feaa-9499-46c4-afb1-33dca04e341a")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2d48b6-c9e1-46ce-9ff0-e6e0027c28d6")
+		(property "Reference" "D27"
+			(at 232.41 -56.8326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -54.2926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05903797-8c13-4aef-94ad-c8a8c8925ad3")
+		)
+		(pin "1"
+			(uuid "84508221-c748-4457-a8b3-8f6a0d43d309")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a84e96-fc04-43c5-b510-4b9f04ac1f76")
+		(property "Reference" "#PWR024"
+			(at 66.04 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13015d9d-a0e9-433b-95a0-7b2b41ced9f5")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "431c98d3-a765-4c25-8596-c45d337ba00b")
+		(property "Reference" "D24"
+			(at 210.82 -64.4526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -61.9126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4759e5fb-ffa2-4c26-be19-e714ebc405d6")
+		)
+		(pin "1"
+			(uuid "c2dd4afc-8900-4a02-bec7-10e8530e1c38")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48d5654f-26be-4c14-94f8-d30f8296cec7")
+		(property "Reference" "D19"
+			(at 232.41 -72.0726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -69.5326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84a76de1-d4c4-4185-b3f2-637f2b411fc6")
+		)
+		(pin "1"
+			(uuid "18834b5e-626d-4807-ac61-dd63226549b9")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5394973a-e9b4-4cc2-a18a-f00ce4d67d9b")
+		(property "Reference" "D11"
+			(at 232.41 -102.5526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -100.0126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eeb00355-a379-4a5a-97ef-857aeab30ef1")
+		)
+		(pin "1"
+			(uuid "c10ac0c8-185c-481b-b09f-6204acfd8293")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a884563-3af4-4f36-ad84-390e5bed21b5")
+		(property "Reference" "C14"
+			(at 118.11 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1u"
+			(at 118.11 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 115.2652 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 114.3 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8bff53d-12df-4156-9560-001dfe868cab")
+		)
+		(pin "2"
+			(uuid "ce9bb53b-83b6-4f99-ac78-b2b27482c4ca")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 124.46 -132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d651fde-67e1-4086-88ef-f38db244d0a6")
+		(property "Reference" "L2"
+			(at 124.46 -137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L10u"
+			(at 124.46 -134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5040S"
+			(at 124.46 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 124.46 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C167967"
+			(at 124.46 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f4a9e8-b39e-45e8-9f62-c72efed53785")
+		)
+		(pin "2"
+			(uuid "1cdfa1a2-40e2-4e81-ad55-30f82f0519ab")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -95.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b66c620-a050-45fb-a4e6-df8ec531ea6b")
+		(property "Reference" "D12"
+			(at 210.82 -94.9326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -92.3926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13924fb6-6e63-44bd-be98-d8acb1c327ae")
+		)
+		(pin "1"
+			(uuid "b02fc742-bbc4-4ee5-8243-65d9482ca847")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f246284-62b3-4baa-b6ca-e0594db87481")
+		(property "Reference" "D26"
+			(at 210.82 -56.8326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -54.2926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "669b6575-e360-452b-b008-c6243f970262")
+		)
+		(pin "1"
+			(uuid "5e2d872a-e854-41e4-aa72-adda68531c47")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 -91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a58f0d-595c-4e66-b05f-b0a89dcd0b52")
+		(property "Reference" "R13"
+			(at 58.42 -97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R51"
+			(at 58.42 -95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 58.42 -93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137960"
+			(at 58.42 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5877eec6-1940-44fd-8951-5da1f9d5d9fe")
+		)
+		(pin "2"
+			(uuid "bad276d6-dd4a-4cd3-bf0a-8c375f9410ec")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847ae727-1087-4696-af98-f9875842bfaf")
+		(property "Reference" "D10"
+			(at 210.82 -102.5526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -100.0126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "189b6fae-ad11-423b-95e7-0558df45d2d6")
+		)
+		(pin "1"
+			(uuid "e076115e-91d4-4a62-aca4-53aef4ebdd27")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "892ab815-5c64-4e47-aebe-07851a531bd0")
+		(property "Reference" "D16"
+			(at 210.82 -79.6926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -77.1526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15a45c6d-5e6d-4a79-881c-1bb7969cc5c8")
+		)
+		(pin "1"
+			(uuid "1deac02f-da81-4b39-a541-54bbe24125d7")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9064d83b-8743-4af8-b697-6d3432c51d3b")
+		(property "Reference" "C13"
+			(at 106.68 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1u"
+			(at 106.68 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 103.8352 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 102.87 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "521e8282-ca02-4020-bf9a-b2d914fb989e")
+		)
+		(pin "2"
+			(uuid "f57d9501-28f8-44ea-8e71-00bea1520cf3")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 -124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90da01df-852c-4c30-bab6-7e67916243da")
+		(property "Reference" "#PWR021"
+			(at 81.28 -118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 -119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 -124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 -124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 -124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "152fdd57-bb25-4752-97ef-54e1e5bbdacf")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 -96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94cc4165-067a-48ec-826c-2c4e63f904c3")
+		(property "Reference" "#PWR019"
+			(at 64.77 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 -96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42381309-edd9-4816-9fa9-cf913dc28038")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "966eba25-e55b-4e64-9619-ddad39ce69ce")
+		(property "Reference" "#PWR022"
+			(at 90.17 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d7b7da2-a795-4980-a086-beac74a5fc4b")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97049712-6f67-478e-949a-78a22fcbc959")
+		(property "Reference" "D28"
+			(at 210.82 -49.2126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -46.6726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40d9a8c7-5a8d-4c51-8bd7-a8efabb1761a")
+		)
+		(pin "1"
+			(uuid "000aaa49-28ff-42a9-b157-029e8cd0ef52")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c97229b-4385-4e4f-8ec1-3ddff2e714aa")
+		(property "Reference" "D29"
+			(at 232.41 -49.2126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -46.6726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08da8914-2f58-4fef-b903-aacc8d35ddb2")
+		)
+		(pin "1"
+			(uuid "0516b502-c007-45a0-b626-7ddb2185f8fa")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ea9cbb5-d47f-4754-911a-0fed540f9598")
+		(property "Reference" "C11"
+			(at 82.55 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4u7"
+			(at 82.55 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 79.7052 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 78.74 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9893b9-1e48-4e1f-8631-7a55beade58f")
+		)
+		(pin "2"
+			(uuid "d8c24a53-8819-43f1-8faf-cc5c150d901a")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 154.94 -132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a664a265-2550-4534-970c-e0e2476e27c5")
+		(property "Reference" "D9"
+			(at 155.2575 -138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 155.2575 -135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 154.94 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 154.94 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C908227"
+			(at 154.94 -132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d68ed54-32cc-4fc3-be27-6e0bb9bf66a9")
+		)
+		(pin "2"
+			(uuid "3775a853-37f7-43f8-be67-8ee924ef76e7")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87db218-968a-4b65-835f-35f6e191431a")
+		(property "Reference" "D32"
+			(at 210.82 -33.9726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -31.4326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d005d50f-5962-4e44-8615-d56f8450295d")
+		)
+		(pin "1"
+			(uuid "aecb38d5-ac0a-46dc-9361-be804ae3f9be")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 -86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab5b750b-ced9-4ce1-9250-4e4cbec3db85")
+		(property "Reference" "#PWR018"
+			(at 64.77 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 -86.3601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 -86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d07fec2-d1ca-4f31-8715-0dacb4622115")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 -96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b657ffd4-53f4-45cc-a50a-77902ec4e504")
+		(property "Reference" "#PWR026"
+			(at 165.1 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 -96.5201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 -96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cc295e2-d0d6-4a6f-b961-3ac962813461")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a76df7-44e6-4420-a00e-0b323d06c3fe")
+		(property "Reference" "#PWR020"
+			(at 78.74 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ce7d67-6e70-4bd0-883f-2956e5fc4efd")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 -39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb69d814-9346-46c2-8385-aabe28a6f866")
+		(property "Reference" "#PWR025"
+			(at 114.3 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e46b9c7-7892-4707-82ed-994d6d61bf9a")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2099af3-f531-4d62-887c-aa9f667a617e")
+		(property "Reference" "C15"
+			(at 129.54 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1u"
+			(at 129.54 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 126.6952 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 125.73 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd22fc64-5a41-4d44-85a7-f2c507c540c3")
+		)
+		(pin "2"
+			(uuid "c053e6fa-f5e2-4201-823c-2b17767c99b1")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6b605cb-6b07-4ba9-b12e-d3296a9fac06")
+		(property "Reference" "D18"
+			(at 210.82 -72.0726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -69.5326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61c3c4c0-e454-46a3-8f8f-a22483e9e9ee")
+		)
+		(pin "1"
+			(uuid "bbe661cd-3c92-4619-972b-511238a5ef4a")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:US1A")
+		(at 81.28 -128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d858916f-f67f-457b-9c40-86e6c774d79e")
+		(property "Reference" "D21"
+			(at 83.82 -129.5401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "US1A"
+			(at 83.82 -127.0001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 76.835 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds16008.pdf"
+			(at 81.28 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 81.28 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 81.28 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C18199125"
+			(at 81.28 -128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2cdb685-544a-4fc8-84cc-17ff49929011")
+		)
+		(pin "2"
+			(uuid "6c0e6794-6535-4e6f-b145-5f3d57bd79a9")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c49c44-d741-43ab-9ea1-a3b78adc9533")
+		(property "Reference" "C16"
+			(at 140.97 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C1u"
+			(at 140.97 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 138.1252 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14445"
+			(at 137.16 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00346332-2072-4117-a23c-012240e67cfc")
+		)
+		(pin "2"
+			(uuid "e8476710-950d-40d2-bd85-b7ee801f2374")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e69aa538-544f-4165-a863-d229a5712b7d")
+		(property "Reference" "D25"
+			(at 232.41 -64.4526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -61.9126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47d687a5-2503-4386-aa90-2d62a11cf4fe")
+		)
+		(pin "1"
+			(uuid "e456babb-4d3c-4ce8-8309-aa8eca2f9fe0")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 -81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6f07bb4-7ae3-476a-80a6-14015b365716")
+		(property "Reference" "TP1"
+			(at 154.94 -81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 -83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 147.32 -76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 -76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 -81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ddbe7d9-5d8f-49e2-af1d-c33f40f50077")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 236.22 -34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecd440e3-9759-415d-83ba-211dc2d82154")
+		(property "Reference" "D23"
+			(at 232.41 -33.9726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 232.41 -31.4326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 236.22 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 236.22 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 236.22 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 236.22 -34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2cc252b-5f89-45f9-bafa-8a4f9d893776")
+		)
+		(pin "1"
+			(uuid "ea6a2357-1dfa-4e3f-a46a-3919cd5b1c51")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 -41.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f84f6e7d-e4a1-485a-9b88-85b431ac6ca0")
+		(property "Reference" "D30"
+			(at 210.82 -41.5926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED250mW"
+			(at 210.82 -39.0526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "aaaafootprintlib:LED_EAHC2835WD6"
+			(at 214.63 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001081821_Everlight-Elec-67-21S-KK5C-H402633Z6-2T-CLW_C385299.pdf"
+			(at 214.63 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, 250mW, 60mA@3V3"
+			(at 214.63 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C385299"
+			(at 214.63 -41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c76daf6-29cb-4ef2-9106-f429756c2d19")
+		)
+		(pin "1"
+			(uuid "683a0f43-3510-4abb-bb5e-6a12219da13c")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 -43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdbc0a5f-6406-4756-b452-628f05d28ab5")
+		(property "Reference" "C12"
+			(at 93.98 -44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C100n"
+			(at 93.98 -41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.1352 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C162178"
+			(at 90.17 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df5ffc8f-c76e-474f-a6c1-5024776cd542")
+		)
+		(pin "2"
+			(uuid "b5fbe3b5-2782-48c3-94ed-ce046eea007e")
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777/2bd14c73-65e3-4453-816f-330a56d3bab0"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

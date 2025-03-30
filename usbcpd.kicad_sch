@@ -4284,16 +4284,6 @@
 		)
 		(uuid "8b01045e-d879-4712-8cfc-9438f27c3619")
 	)
-	(text "pp_usbc_vbus"
-		(exclude_from_sim no)
-		(at 57.404 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a14636af-51b4-404f-a986-c16c154b26d3")
-	)
 	(text "CC2"
 		(exclude_from_sim no)
 		(at 55.372 89.408 0)
@@ -5854,6 +5844,16 @@
 		)
 		(uuid "61bc8e4f-a1c1-4fde-981f-f83ef3bc1c83")
 	)
+	(label "pp_usbc_vbus"
+		(at 53.34 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64290bfa-9adc-41f7-8967-fa8bc427360a")
+	)
 	(label "2V7"
 		(at 58.42 -19.05 0)
 		(effects
@@ -5983,16 +5983,6 @@
 			(justify left bottom)
 		)
 		(uuid "dc8f0ce7-e2ad-4de6-a28b-17e97d48602c")
-	)
-	(label "Prevent issues from ESD or high voltage"
-		(at 62.23 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dd7d6820-e7bc-46fe-b694-5492be6fd276")
 	)
 	(label "1V2"
 		(at 71.12 -19.05 0)

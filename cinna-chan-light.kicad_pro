@@ -558,12 +558,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -619,6 +637,10 @@
     [
       "33b3108a-705d-428a-9e44-d07d12af5dbd",
       "3V3reg"
+    ],
+    [
+      "2bd14c73-65e3-4453-816f-330a56d3bab0",
+      "light_white"
     ]
   ],
   "text_variables": {}
