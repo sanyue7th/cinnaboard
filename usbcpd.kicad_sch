@@ -4100,16 +4100,6 @@
 		)
 		(uuid 73790255-b39c-4a46-b0c2-8e9586562128)
 	)
-	(text "scl"
-		(exclude_from_sim no)
-		(at 101.092 105.918 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07332f8c-0e16-4add-a097-b6db355f8b8d")
-	)
 	(text "CC1"
 		(exclude_from_sim no)
 		(at 39.37 141.478 0)
@@ -4142,66 +4132,6 @@
 		)
 		(uuid "20401b9c-0979-4ac7-b0b6-c3886531a085")
 	)
-	(text "CC2"
-		(exclude_from_sim no)
-		(at 100.076 124.968 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2a7dc192-12ac-4ac6-be21-3372e89e67d6")
-	)
-	(text "snk enable"
-		(exclude_from_sim no)
-		(at 155.448 103.378 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30467969-ddc8-4f83-a9e7-561e1cf29189")
-	)
-	(text "alert"
-		(exclude_from_sim no)
-		(at 101.092 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "356bc1c2-86f5-4225-b148-a12ce13a0db5")
-	)
-	(text "attach"
-		(exclude_from_sim no)
-		(at 155.194 108.204 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4735b90c-8c6e-429e-b956-40daa3b479d9")
-	)
-	(text "sda"
-		(exclude_from_sim no)
-		(at 101.092 108.458 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50a248ba-825d-4cce-a3d4-46643f0ad752")
-	)
-	(text "CC1"
-		(exclude_from_sim no)
-		(at 100.33 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "55a645a0-ff8f-4e45-97b3-5c0163569a66")
-	)
 	(text "Protects electronic circuit from surges and transient spikes"
 		(exclude_from_sim no)
 		(at 50.8 154.94 0)
@@ -4223,56 +4153,6 @@
 		)
 		(uuid "6069a744-fa6c-47bd-90c4-3e3cd13ce73f")
 	)
-	(text "ADDR1"
-		(exclude_from_sim no)
-		(at 100.33 100.838 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6a7f14ea-12c3-4578-9129-05d317205497")
-	)
-	(text "ADDR0"
-		(exclude_from_sim no)
-		(at 100.33 98.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6bed0108-00fa-4a96-b4b1-a341cccdcf29")
-	)
-	(text "1v2"
-		(exclude_from_sim no)
-		(at 154.94 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d4b9717-0d27-42d0-b4b3-83015f049eac")
-	)
-	(text "3a"
-		(exclude_from_sim no)
-		(at 155.194 113.284 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6f8369be-2c6c-44d3-8cfb-7576ed100ee3")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 155.448 123.698 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89ad764a-708d-4924-9f75-f9c96bd579a6")
-	)
 	(text "(Lisha's Reference) STUSB4500 USB-PD Interface and Power Path Controller"
 		(exclude_from_sim no)
 		(at 53.594 -84.836 0)
@@ -4284,16 +4164,6 @@
 		)
 		(uuid "8b01045e-d879-4712-8cfc-9438f27c3619")
 	)
-	(text "CC2"
-		(exclude_from_sim no)
-		(at 55.372 89.408 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a15a3bd9-b40a-4f35-a5bd-2cc91b10bbfd")
-	)
 	(text "It can power switch, load switch, and DC-DC conversion"
 		(exclude_from_sim no)
 		(at 221.996 72.136 0)
@@ -4303,86 +4173,6 @@
 			)
 		)
 		(uuid "a26e5172-6eb4-4870-abe6-d25185b8d95f")
-	)
-	(text "reset"
-		(exclude_from_sim no)
-		(at 100.33 93.218 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ab0bacfb-75ba-453c-a41e-e140c9b4d740")
-	)
-	(text "1a5"
-		(exclude_from_sim no)
-		(at 155.194 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c232e08f-c989-44d6-9960-310ee2940398")
-	)
-	(text "1v7"
-		(exclude_from_sim no)
-		(at 154.94 95.504 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6caf3e1-582a-43a8-85c2-4132e3bd00ff")
-	)
-	(text "vbus_discharge"
-		(exclude_from_sim no)
-		(at 155.956 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c824a4c7-ecd8-45b4-b35e-e25d4145ce19")
-	)
-	(text "CC1"
-		(exclude_from_sim no)
-		(at 55.372 86.614 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c833c37b-5dd7-4f1a-8e34-2cf9e47b6681")
-	)
-	(text "pp_usbc_vbus"
-		(exclude_from_sim no)
-		(at 199.644 85.344 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca869fd5-2f73-4fc3-b703-662e42fb9907")
-	)
-	(text "pp_usbc_vbus"
-		(exclude_from_sim no)
-		(at 155.448 87.884 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d793308b-d05f-4e17-b136-b5018b460410")
-	)
-	(text "pp_usbc_vbus"
-		(exclude_from_sim no)
-		(at 177.546 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "db2e6ab6-0c6f-4907-921c-0ea15450489b")
 	)
 	(junction
 		(at 158.75 -16.51)
@@ -4823,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "34192836-1957-4c0a-a82a-edb42f508577")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348ae537-53bb-43a6-8ba7-6e76bf9ab6c1")
 	)
 	(wire
 		(pts
@@ -5376,16 +5176,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a594814e-df2c-45fe-8f10-14f7ef0623ff")
-	)
-	(wire
-		(pts
 			(xy 144.78 -19.05) (xy 158.75 -19.05)
 		)
 		(stroke
@@ -5754,6 +5544,16 @@
 		)
 		(uuid "03abb7d0-af70-4fef-9d0c-f53cc96825d5")
 	)
+	(label "CC1"
+		(at 53.34 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06991295-4a65-4b50-a2bd-fae2f9702894")
+	)
 	(label "pp_usbc_vbus"
 		(at 85.09 -19.05 0)
 		(effects
@@ -5773,6 +5573,16 @@
 			(justify left bottom)
 		)
 		(uuid "1419e7b0-9039-4d41-9865-4615272a352e")
+	)
+	(label "attach"
+		(at 151.13 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17fd63b0-b245-4110-a956-39b8b3379779")
 	)
 	(label "GPIO"
 		(at 144.78 -31.75 0)
@@ -5804,6 +5614,16 @@
 		)
 		(uuid "26fe5107-07e0-4c7c-b165-5b3a109e8c12")
 	)
+	(label "CC1"
+		(at 98.044 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2887c207-e75d-45c5-bcfc-eadfb6d51dac")
+	)
 	(label "1V2"
 		(at 144.78 -62.23 0)
 		(effects
@@ -5814,6 +5634,36 @@
 		)
 		(uuid "2d61a1b0-322b-4652-b217-05cd30075cd7")
 	)
+	(label "scl"
+		(at 98.806 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e28735c-93e3-4cf6-afcb-ac7b82ad090c")
+	)
+	(label "1v7"
+		(at 151.13 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36d3a2c9-0b8e-4350-9b1d-7f45878cca43")
+	)
+	(label "reset"
+		(at 98.044 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36f011e5-cf14-4339-9212-609db80ac8f6")
+	)
 	(label "attach"
 		(at 144.78 -46.99 0)
 		(effects
@@ -5823,6 +5673,16 @@
 			(justify left bottom)
 		)
 		(uuid "4298124b-9bb2-4d41-8ead-db494c6e8df2")
+	)
+	(label "1a5"
+		(at 152.146 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5549cad5-29a4-4060-b190-197a29a6c339")
 	)
 	(label "CC2"
 		(at 52.07 -66.04 0)
@@ -5853,6 +5713,16 @@
 			(justify left bottom)
 		)
 		(uuid "64290bfa-9adc-41f7-8967-fa8bc427360a")
+	)
+	(label "ADDR0"
+		(at 98.044 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e08d542-ef5a-4b8d-aaa8-cec92049f86f")
 	)
 	(label "2V7"
 		(at 58.42 -19.05 0)
@@ -5894,6 +5764,66 @@
 		)
 		(uuid "765b77ed-2282-498f-bfae-4cfbfbe8ef1a")
 	)
+	(label "3a"
+		(at 152.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7756a199-a8aa-4ab2-a575-120b81001c29")
+	)
+	(label "CC2"
+		(at 97.79 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79a4ceba-7973-41b6-af6e-85c67ecf5bb7")
+	)
+	(label "1v2"
+		(at 151.13 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86bfd13c-6208-4423-a1f0-3d286443359d")
+	)
+	(label "vbus_discharge"
+		(at 150.368 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86c86e94-271d-4c54-9a68-a11364649f75")
+	)
+	(label "snk_enable"
+		(at 149.86 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9313dcbb-0f61-4a77-a2d7-d6dc25d6dd4b")
+	)
+	(label "ADDR1"
+		(at 98.044 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a01ef374-e2de-4e02-bb31-38be6edef9cd")
+	)
 	(label "scl"
 		(at 93.98 -49.53 0)
 		(effects
@@ -5903,6 +5833,26 @@
 			(justify left bottom)
 		)
 		(uuid "a058e351-c255-42de-a0c0-6455f046a0e6")
+	)
+	(label "CC2"
+		(at 53.086 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0a9fb54-649a-4c4c-a144-7873b562adf5")
+	)
+	(label "pp_usbc_vbus"
+		(at 149.86 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5e8e57e-f340-4656-b298-bd8d6e86de1f")
 	)
 	(label "CC1"
 		(at 27.94 -12.7 0)
@@ -5923,6 +5873,26 @@
 			(justify left bottom)
 		)
 		(uuid "bd61fed6-cc4d-4c18-8266-7564df2ef15c")
+	)
+	(label "alert"
+		(at 98.806 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3d3e248-7dd6-4b38-bd15-3f131a6f9f55")
+	)
+	(label "sda"
+		(at 98.806 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf33329-4431-48a6-aa30-08cf58e21319")
 	)
 	(label "CC1"
 		(at 52.07 -68.58 0)
@@ -5954,6 +5924,16 @@
 		)
 		(uuid "d0b7ac69-0bc3-4918-9a12-bf56a3323ac1")
 	)
+	(label "pp_usbc_vbus"
+		(at 194.31 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d32bfc2f-c951-46ce-9fbe-8fe6bcaba238")
+	)
 	(label "vbus_disch"
 		(at 144.78 -54.61 0)
 		(effects
@@ -5963,6 +5943,16 @@
 			(justify left bottom)
 		)
 		(uuid "d447e963-7f3d-442a-8ba8-46ebccd82c3b")
+	)
+	(label "GPIO"
+		(at 153.162 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7d700ed-388b-496c-b597-7e526808387f")
 	)
 	(label "pp_usbc_vbus"
 		(at 52.07 -73.66 0)
@@ -5983,6 +5973,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc8f0ce7-e2ad-4de6-a28b-17e97d48602c")
+	)
+	(label "pp_usbc_vbus"
+		(at 171.45 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec0ea759-dcb1-4449-9e50-7cc86dff171c")
 	)
 	(label "1V2"
 		(at 71.12 -19.05 0)
