@@ -880,7 +880,7 @@
 	)
 	(text "haihai cinnachan!\n\nlets make a basic board with an ESP32\nthis is a SoM with RF frontend and antenna built-in"
 		(exclude_from_sim no)
-		(at 39.878 32.258 0)
+		(at 76.2 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -891,7 +891,7 @@
 	)
 	(text "hit \"a\" and search for the component, and place it :p\nchoose the one shown below!"
 		(exclude_from_sim no)
-		(at 39.878 41.91 0)
+		(at 76.2 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,7 +902,7 @@
 	)
 	(text "this is a heirarchal sheet. click it to enter it, and notice to the wire is connected between the \nsheet and here. right click the sheet and click sync sheet pin to add the remaining 2/4 labels here!"
 		(exclude_from_sim no)
-		(at 182.626 139.954 0)
+		(at 185.674 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,7 +934,7 @@
 	)
 	(text "from any node, u can draw wires. try to make this reference schematic for the ESP32"
 		(exclude_from_sim no)
-		(at 40.894 67.564 0)
+		(at 77.216 139.954 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -943,18 +943,64 @@
 		)
 		(uuid "e3550c89-0d4d-44c2-9683-0f3bfc3076fc")
 	)
+	(junction
+		(at 109.22 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c0a4a9-7d9d-45d4-86ea-25ac65d207e2")
+	)
 	(wire
 		(pts
-			(xy 180.34 133.35) (xy 175.26 133.35)
+			(xy 109.22 35.56) (xy 189.23 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e6d4b1a-0a5a-4000-94f9-4a01b6bd03f2")
+		(uuid "50e3ada6-adb5-4137-a63e-924ed490dfde")
+	)
+	(wire
+		(pts
+			(xy 105.41 35.56) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b9658b-e329-4be8-a54b-520518356576")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 114.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6836e7fc-a9b2-47c4-8c63-9e2b36415dff")
+	)
+	(wire
+		(pts
+			(xy 39.37 44.45) (xy 30.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc8b4ad-3d3f-4269-8364-851ceac25557")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f053d495-ddcb-4b05-9284-5f56d13d90fb")
 	)
 	(image
-		(at 63.5 53.34)
+		(at 99.822 125.73)
 		(scale 0.160512)
 		(uuid "19918434-52b0-4417-a4ac-f2ad8f3a4fdf")
 		(data "iVBORw0KGgoAAAANSUhEUgAABCIAAAGQCAIAAAD0iVbdAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -2296,11 +2342,29 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(label "3v3"
-		(at 175.26 133.35 180)
+		(at 30.48 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2538,7 +2602,69 @@
 		)
 	)
 	(sheet
-		(at 157.48 33.02)
+		(at 114.3 40.64)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01a8ac06-a845-487c-9215-ee2d4a112d39")
+		(property "Sheetname" "5vPWRreg"
+			(at 114.3 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5vPWRreg.kicad_sch"
+			(at 114.3 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PP_INPUT" input
+			(at 114.3 44.45 180)
+			(uuid "50711c80-7f0a-4ce9-b3aa-353746ecf8c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PP_5V_MAIN" input
+			(at 139.7 44.45 0)
+			(uuid "bbd8decc-9302-4230-b64a-9ca1893ce89b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 33.02)
 		(size 81.28 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2554,7 +2680,7 @@
 		)
 		(uuid "2bd14c73-65e3-4453-816f-330a56d3bab0")
 		(property "Sheetname" "light_white"
-			(at 157.48 32.3084 0)
+			(at 189.23 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,12 +2689,42 @@
 			)
 		)
 		(property "Sheetfile" "light_white.kicad_sch"
-			(at 157.48 53.9246 0)
+			(at 189.23 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "en" input
+			(at 189.23 45.72 180)
+			(uuid "bc3f4b17-38f3-49f3-bff6-69ea7c4f2a4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "vbus" input
+			(at 189.23 35.56 180)
+			(uuid "b09544f3-7389-443d-8bcd-a46f22ec2b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pwm" input
+			(at 189.23 49.53 180)
+			(uuid "7e46429f-7872-478d-94f2-267793ed3fc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2580,8 +2736,70 @@
 		)
 	)
 	(sheet
-		(at 180.34 121.92)
-		(size 102.87 30.48)
+		(at 147.32 40.64)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43a0dff2-6e57-4efa-916b-4b306da2a667")
+		(property "Sheetname" "argb"
+			(at 147.32 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "argb.kicad_sch"
+			(at 147.32 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "din" input
+			(at 147.32 49.53 180)
+			(uuid "7e5c6678-1d49-421c-a9a1-6a466b00cd8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5v" input
+			(at 147.32 44.45 180)
+			(uuid "da744347-1e03-41d5-802a-e462364cd563")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cinna-chan-light"
+				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 33.02)
+		(size 66.04 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2596,7 +2814,7 @@
 		)
 		(uuid "48f6a092-749b-4bf1-b9a6-a1b04cd63cac")
 		(property "Sheetname" "usbcpd"
-			(at 180.34 121.2084 0)
+			(at 39.37 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2823,7 @@
 			)
 		)
 		(property "Sheetfile" "usbcpd.kicad_sch"
-			(at 180.34 152.9846 0)
+			(at 39.37 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,17 +2832,17 @@
 			)
 		)
 		(pin "PP_USBC_VBUS" input
-			(at 180.34 130.81 180)
+			(at 105.41 35.56 0)
 			(uuid "c3de3dcd-84bc-4bb2-897d-c4d6a5680cfb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PP_3V3_MAIN" input
-			(at 180.34 133.35 180)
+			(at 39.37 44.45 180)
 			(uuid "ca6df9d1-b284-47f2-a2c3-562d3390640d")
 			(effects
 				(font
@@ -2634,7 +2852,7 @@
 			)
 		)
 		(pin "COM_I2C_SCL" input
-			(at 180.34 128.27 180)
+			(at 39.37 39.37 180)
 			(uuid "e6bff715-6d1c-4c28-b47f-46b3861a1a40")
 			(effects
 				(font
@@ -2644,13 +2862,13 @@
 			)
 		)
 		(pin "COM_I2C_SDA" input
-			(at 204.47 121.92 90)
+			(at 39.37 36.83 180)
 			(uuid "d0c319f5-2fc8-4905-b975-70837f9f166f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

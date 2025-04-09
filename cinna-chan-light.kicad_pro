@@ -576,6 +576,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -641,6 +659,14 @@
     [
       "2bd14c73-65e3-4453-816f-330a56d3bab0",
       "light_white"
+    ],
+    [
+      "01a8ac06-a845-487c-9215-ee2d4a112d39",
+      "5vPWRreg"
+    ],
+    [
+      "43a0dff2-6e57-4efa-916b-4b306da2a667",
+      "argb"
     ]
   ],
   "text_variables": {}

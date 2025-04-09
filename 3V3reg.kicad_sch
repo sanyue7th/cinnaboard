@@ -972,15 +972,16 @@
 		)
 		(uuid "bbbd0ad1-9a4b-4040-8af0-f68fc5724e3a")
 	)
-	(label "PP_USBC_VBUS"
-		(at 93.98 93.98 0)
+	(hierarchical_label "PP_INPUT"
+		(shape input)
+		(at 93.98 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "e1c7f9ae-9abb-4dbe-965a-8a56a30894c4")
+		(uuid "6e0da009-a863-4220-b66e-a1d447e4addb")
 	)
 	(hierarchical_label "PP_3V3_MAIN"
 		(shape input)
