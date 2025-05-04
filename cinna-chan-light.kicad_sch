@@ -856,8 +856,8 @@
 		)
 	)
 	(rectangle
-		(start 17.526 73.406)
-		(end 167.386 154.686)
+		(start 42.926 68.326)
+		(end 192.786 149.606)
 		(stroke
 			(width 0)
 			(type default)
@@ -867,31 +867,9 @@
 		)
 		(uuid c124e403-2f1d-42bf-a34c-20f552a44179)
 	)
-	(text "this is a local label. it can be referenced anywhere. it's not best practice to use these when not scrictly necessary (ie for one-off signals) because then the namespace can get messy"
-		(exclude_from_sim no)
-		(at 182.88 91.186 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c0b5ae9-fb1c-48d3-8ec0-59e1ba1ff2ae")
-	)
-	(text "haihai cinnachan!\n\nlets make a basic board with an ESP32\nthis is a SoM with RF frontend and antenna built-in"
-		(exclude_from_sim no)
-		(at 76.2 104.648 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f564f84-0201-4bbf-a2d7-f5b76994d32e")
-	)
 	(text "hit \"a\" and search for the component, and place it :p\nchoose the one shown below!"
 		(exclude_from_sim no)
-		(at 76.2 114.3 0)
+		(at 101.6 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -900,20 +878,9 @@
 		)
 		(uuid "59d4babe-ef52-4a56-bcab-b8265b385d4f")
 	)
-	(text "this is a heirarchal sheet. click it to enter it, and notice to the wire is connected between the \nsheet and here. right click the sheet and click sync sheet pin to add the remaining 2/4 labels here!"
-		(exclude_from_sim no)
-		(at 185.674 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b18fea30-58e9-4149-9775-aa3f565a9d40")
-	)
 	(text "ESP32"
 		(exclude_from_sim no)
-		(at 25.4 78.74 0)
+		(at 50.8 73.66 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -921,20 +888,9 @@
 		)
 		(uuid "bce50ba9-e57e-4896-8763-019250b087f6")
 	)
-	(text "this is a local label. it connects nodes in the same sheet. outside this sheet, 3v3 is not connected to 3v3 local label here"
-		(exclude_from_sim no)
-		(at 184.912 102.616 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de8e73cb-af5a-4faa-978c-1a9d59338bb0")
-	)
 	(text "from any node, u can draw wires. try to make this reference schematic for the ESP32"
 		(exclude_from_sim no)
-		(at 77.216 139.954 0)
+		(at 102.616 134.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -943,21 +899,15 @@
 		)
 		(uuid "e3550c89-0d4d-44c2-9683-0f3bfc3076fc")
 	)
-	(junction
-		(at 109.22 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0c0a4a9-7d9d-45d4-86ea-25ac65d207e2")
-	)
 	(wire
 		(pts
-			(xy 109.22 35.56) (xy 189.23 35.56)
+			(xy 29.21 36.83) (xy 39.37 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50e3ada6-adb5-4137-a63e-924ed490dfde")
+		(uuid "1b3f864b-55f1-41a7-a647-436ffae9f600")
 	)
 	(wire
 		(pts
@@ -971,13 +921,33 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 39.37) (xy 114.3 44.45)
+			(xy 29.21 39.37) (xy 39.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6788227a-f185-4926-a857-b3166cf79226")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6836e7fc-a9b2-47c4-8c63-9e2b36415dff")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 161.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fbf356-990b-42f8-8cbb-2ce8f73286ca")
 	)
 	(wire
 		(pts
@@ -989,18 +959,8 @@
 		)
 		(uuid "ebc8b4ad-3d3f-4269-8364-851ceac25557")
 	)
-	(wire
-		(pts
-			(xy 109.22 39.37) (xy 109.22 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f053d495-ddcb-4b05-9284-5f56d13d90fb")
-	)
 	(image
-		(at 99.822 125.73)
+		(at 125.222 120.65)
 		(scale 0.160512)
 		(uuid "19918434-52b0-4417-a4ac-f2ad8f3a4fdf")
 		(data "iVBORw0KGgoAAAANSUhEUgAABCIAAAGQCAIAAAD0iVbdAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -2378,8 +2338,64 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAADFlNDc5ZTQ4IikpKGp1bmN0aW9uIChhdCA0MzYuODggNzEuMTIpIChkaWFt"
+			"ZXRlciAwKSAoY29sb3IgMCAwIDAgMCkodXVpZCAiZmY2ZGQ3ZWYtYjhjZS00ZGRkLTkxNzUtNDg2"
+			"MDIxNjc0ZTg4IikpKGp1bmN0aW9uIChhdCAxMjUuNzMgOTYuNTIpIChkaWFtZXRlciAwKSAoY29s"
+			"b3IgMCAwIDAgMCkodXVpZCAiZmY5MDY2MTAtYTZkOS00NzJkLWFiNTItYjlhY2U0ZjhmZmM0Iikp"
+			"KGp1bmN0aW9uIChhdCA0NjcuMzYgMTg0LjE1KSAoZGlhbWV0ZXIgMCkgKGNvbG9yIDAgMCAwIDAp"
+			"KHV1aWQgImZmZWQ3YzMyLTYwMjUtNDg1Zi05NjFlLTU0N2JkMTliNDQzNiIpKSh3aXJlIChwdHMg"
+			"KHh5IDI1Ny44MSA0Ni45OSkgKHh5IDI3My4wNSA0Ni45OSkpKHN0cm9rZSAod2lkdGggMCkgKHR5"
+			"cGUgZGVmYXVsdCkpKHV1aWQgIjAwMDFhYzExLTlkZDYtNDMzYi05NTM4LTUxN2NiZGNmODMzYyIp"
+			"KSh3aXJlIChwdHMgKHh5IDQzNi44OCAxODQuMTUpICh4eSA0NTIuMTIgMTg0LjE1KSkoc3Ryb2tl"
+			"ICh3aWR0aCAwKSAodHlwZSBkZWZhdWx0KSkodXVpZCAiMDBjNWUzM2QtNmFmOS00OWE1LWI2NmUt"
+			"Y2RjOGUzNmI5ODM0IikpKHdpcmUgKHB0cyAoeHkgMTgxLjYxIDk2LjUyKSAoeHkgMTk2Ljg1IDk2"
+			"LjUyKSkoc3Ryb2tlICh3aWR0aCAwKSAodHlwZSBkZWZhdWx0KSkodXVpZCAiMDE2NmI5ZDYtNjdj"
+			"Ni00MGVhLWE5ZDAtZmQ2NThiOWUxMmFlIikpKHdpcmUgKHB0cyAoeHkgNDM2Ljg4IDEwMC4zMykg"
+			"KHh5IDQ1Mi4xMiAxMDAuMzMpKShzdHJva2UgKHdpZHRoIDApICh0eXBlIGRlZmF1bHQpKSh1dWlk"
+			"ICIwMTY5OTgxNS01MTA0LTRlMDMtYjQ5Ni0zNTkzYjBkZjdmNmQiKSkod2lyZSAocHRzICh4eSAx"
+			"NDAuOTcgMTk5LjM5KSAoeHkgMTY2LjM3IDE5OS4zOSkpKHN0cm9rZSAod2lkdGggMCkgKHR5cGUg"
+			"ZGVmYXVsdCkpKHV1aWQgIjAxZjU4MjM5LTkxODQtNDViNy1iZWFhLTMyZWNhYzUzMDJjNSIpKSh3"
+			"aXJlIChwdHMgKHh5IDEyNS43MyAxODQuMTUpICh4eSAxNDAuOTcgMTg0LjE1KSkoc3Ryb2tlICh3"
+			"aWR0aCAwKSAodHlwZQ=="
 		)
+	)
+	(label "STUSB_SCL"
+		(at 29.21 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44119649-3221-4324-8c50-2b0d5f4318b9")
+	)
+	(label "ARGB_DIN"
+		(at 96.52 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55f2b0f8-9e92-4aab-aebc-634abab4b6ee")
 	)
 	(label "3v3"
 		(at 30.48 44.45 180)
@@ -2391,41 +2407,103 @@
 		)
 		(uuid "692baf10-a0ae-4b71-b3e2-43c2170cb134")
 	)
-	(label "3v3"
-		(at 185.42 100.33 180)
+	(label "STUSB_SCL"
+		(at 96.52 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4755167-1854-4235-b11e-06ca10f4b4a4")
+	)
+	(label "STUSB_SDA"
+		(at 29.21 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "adb92901-f060-4526-a4ec-54a0978f5339")
+		(uuid "ba7f6c58-bd98-49a7-bf2a-3725e1e5dec4")
 	)
-	(global_label "PWR_EN"
+	(label "ARGB_DIN"
+		(at 161.29 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c795b358-f097-45f4-93be-3ab1149eaf18")
+	)
+	(label "3v3"
+		(at 74.93 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecdc59d9-ba6e-41e5-8310-715d6a300096")
+	)
+	(label "STUSB_SDA"
+		(at 96.52 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34413df-deae-426b-8900-d048ec939746")
+	)
+	(global_label "USB Data +"
 		(shape input)
-		(at 182.88 87.63 180)
+		(at 90.17 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "58bc8889-ee47-4b4d-80fe-86774458ea35")
+		(uuid "8057a03f-7e22-4add-978b-741ba48ec209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4563 87.63 0)
+			(at 104.7665 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB Data -"
+		(shape input)
+		(at 90.17 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7bf29f9-ccf4-4d21-ab1b-6f27ecf16258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.7665 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 49.53 113.03 0)
+		(at 74.93 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2434,7 +2512,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e869e1f-c7d3-48e7-bf45-eb7da904ee9d")
 		(property "Reference" "U3"
-			(at 51.6733 82.55 0)
+			(at 77.0733 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2521,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 51.6733 85.09 0)
+			(at 77.0733 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2530,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 49.53 110.49 0)
+			(at 74.93 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2539,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 49.53 113.03 0)
+			(at 74.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2548,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 49.53 113.03 0)
+			(at 74.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,12 +2557,28 @@
 			)
 		)
 		(property "LCSC" "C2913192"
-			(at 49.53 113.03 0)
+			(at 74.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -2620,7 +2714,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 40.64)
+		(at 114.3 36.83)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2636,7 +2730,7 @@
 		)
 		(uuid "01a8ac06-a845-487c-9215-ee2d4a112d39")
 		(property "Sheetname" "5vPWRreg"
-			(at 114.3 39.9284 0)
+			(at 114.3 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2739,7 @@
 			)
 		)
 		(property "Sheetfile" "5vPWRreg.kicad_sch"
-			(at 114.3 53.9246 0)
+			(at 114.3 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2748,7 @@
 			)
 		)
 		(pin "PP_INPUT" input
-			(at 114.3 44.45 180)
+			(at 114.3 40.64 180)
 			(uuid "50711c80-7f0a-4ce9-b3aa-353746ecf8c3")
 			(effects
 				(font
@@ -2664,7 +2758,7 @@
 			)
 		)
 		(pin "PP_5V_MAIN" input
-			(at 139.7 44.45 0)
+			(at 139.7 40.64 0)
 			(uuid "bbd8decc-9302-4230-b64a-9ca1893ce89b")
 			(effects
 				(font
@@ -2682,79 +2776,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 33.02)
-		(size 81.28 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2bd14c73-65e3-4453-816f-330a56d3bab0")
-		(property "Sheetname" "light_white"
-			(at 189.23 32.3084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "light_white.kicad_sch"
-			(at 189.23 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "en" input
-			(at 189.23 45.72 180)
-			(uuid "bc3f4b17-38f3-49f3-bff6-69ea7c4f2a4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "vbus" input
-			(at 189.23 35.56 180)
-			(uuid "b09544f3-7389-443d-8bcd-a46f22ec2b06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "pwm" input
-			(at 189.23 49.53 180)
-			(uuid "7e46429f-7872-478d-94f2-267793ed3fc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "cinna-chan-light"
-				(path "/eccd34c1-1a5c-4187-bee1-b0d1b475f777"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 147.32 40.64)
+		(at 161.29 36.83)
 		(size 27.94 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2770,7 +2792,7 @@
 		)
 		(uuid "43a0dff2-6e57-4efa-916b-4b306da2a667")
 		(property "Sheetname" "argb"
-			(at 147.32 39.9284 0)
+			(at 161.29 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2801,7 @@
 			)
 		)
 		(property "Sheetfile" "argb.kicad_sch"
-			(at 147.32 53.9246 0)
+			(at 161.29 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2810,7 @@
 			)
 		)
 		(pin "din" input
-			(at 147.32 49.53 180)
+			(at 161.29 45.72 180)
 			(uuid "7e5c6678-1d49-421c-a9a1-6a466b00cd8e")
 			(effects
 				(font
@@ -2798,7 +2820,7 @@
 			)
 		)
 		(pin "5v" input
-			(at 147.32 44.45 180)
+			(at 161.29 40.64 180)
 			(uuid "da744347-1e03-41d5-802a-e462364cd563")
 			(effects
 				(font

@@ -456,7 +456,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -655,10 +655,6 @@
     [
       "33b3108a-705d-428a-9e44-d07d12af5dbd",
       "3V3reg"
-    ],
-    [
-      "2bd14c73-65e3-4453-816f-330a56d3bab0",
-      "light_white"
     ],
     [
       "01a8ac06-a845-487c-9215-ee2d4a112d39",
